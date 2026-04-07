@@ -1,0 +1,60 @@
+/* Import clean modern font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0f0f0f;
+}
+
+/* Poster container */
+.poster {
+    width: 800px;
+    height: 500px;
+    background: linear-gradient(135deg, #111, #1c1c1c);
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+}
+
+/* Content */
+.content {
+    text-align: center;
+    color: #f5f5f5;
+}
+
+/* Quote */
+.quote {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+
+/* Highlight second line */
+.quote span {
+    display: block;
+    margin-top: 10px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+/* Author */
+.author {
+    margin-top: 25px;
+    font-size: 16px;
+    color: #bbbbbb;
+    letter-spacing: 2px;
+}
